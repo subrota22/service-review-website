@@ -1,0 +1,27 @@
+
+.navLinks{
+display: flex;
+flex-direction: row;
+}
+.navTitle{
+    font-family: 'Roboto Slab', serif;
+
+}
+.navbar{
+    background-color: #140342;
+}
+@media(max-width:670px) {
+    .navLinks{
+        display: flex;
+        flex-direction: column;
+        } 
+        .navbar{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: rgba(77, 19, 170, 0.76);
+        }
+      .navbar  a{
+            color: white;
+        }
+}

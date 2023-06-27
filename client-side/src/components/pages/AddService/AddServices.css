@@ -1,0 +1,13 @@
+
+.serviceFormDiv{
+display: flex;
+flex-direction: row;
+}
+
+@media(max-width:680px){
+    .serviceFormDiv{
+        display: flex;
+        flex-direction: column;
+        }
+         
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+SA+Beginner&family=Finlandica:ital,wght@1,600&family=Gentium+Book+Plus:ital,wght@0,700;1,700&family=Lato:wght@700&family=Open+Sans:ital,wght@0,300;1,400&family=PT+Serif:ital@1&family=Poppins:wght@300;500&family=Raleway:wght@200;400&family=Roboto&family=Roboto+Slab:wght@300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0px;
+font-family: 'Roboto Slab', serif;
+background-color: #29053E;
+}
+body::-webkit-scrollbar{
+background-color: #651794;
+width: 12px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #060434;
+  border-radius: 10px;
+  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#scrollbarDesign::-webkit-scrollbar{
+  background-color: rgb(2, 17, 2);
+  border-radius: 10px;
+  width: 7px;
+  }
+
+  #scrollbarDesign::-webkit-scrollbar-thumb{
+    background-color: rgb(64, 223, 59);
+    border-radius: 10px;
+    }
+
+    .footerBackground{
+      background-color: #140342;
+    }
